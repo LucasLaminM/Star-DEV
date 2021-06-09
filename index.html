@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Star-Dev</title>
     <link rel="stylesheet" href="/css/style.css">
-    <script src="./index.js"></script>
+    <script src="./index.js" defer></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;600;700&display=swap" rel="stylesheet">
 </head>
@@ -41,7 +41,7 @@
         </section>
 
         <section class="phrases-container">
-            <button id="btn-phrases">Ler uma frase!</button>
+            <button id="btn-phrases" onclick="loadPhrase()">Ler uma frase!</button>
             <p id="phrase"></p>
         </section>
     </main>
